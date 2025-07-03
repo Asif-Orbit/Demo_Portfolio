@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #00000021;
+    height: 740px;
+}
+.h-div1{
+    
+    width: 50%;
+    /* display: block; */
+    
+    
+}
+.h-text1{
+    
+    margin-top: 250px;
+    text-align: center; 
+    font-size: 100px;
+    font-weight: bold; 
+    
+}
+.h-text2{
+    
+    text-align: right;
+    font-size: 50px;
+    
+    
+}
+.h-div1 p{
+    margin-top: 30px;
+    margin-left: 20%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.h-div2{
+    background-image: url(image/boy.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    width: 50%;
+    padding-right: 100px;
+    
+    
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+  
+
+}
+
+.menu li{
+    margin-left: 20px;
+     /* margin-top: 25px; */
+    
+}
+.menu li a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 25px;
+    border: 1px solid none ;
+    border-radius: 20px;
+    box-shadow: 5px 2px 15px black;
+}
